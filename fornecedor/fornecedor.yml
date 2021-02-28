@@ -3,6 +3,6 @@ spring:
     hibernate:
       ddl-auto: create     
   datasource:
-    url: dbc:postgresql://localhost:5432/fornecedor
+    url: jdbc:postgresql://localhost:5432/fornecedor
     username: postgres
     password: 123456
